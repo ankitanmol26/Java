@@ -248,11 +248,113 @@
 // }
 
 // printing the multiplication table of a number
+// public class first{
+//     public static void main(String[] args){
+//         int n = 7;
+//         for(int i = 1; i <= 10; i++){
+//             System.out.println(n + " x " + i + " = " + (n * i));
+//         }
+//     }
+// }
+
+// counting the number of digits in an integer
+// public class first{
+//     public static void main(String[] args){
+//         int n = 12345;
+//         int count = 0;
+//         while (n != 0){
+//             n = n / 10;
+//             count++;
+//         }
+//         System.out.println("The number of digits in the integer is: " + count);
+
+//     }
+// }
+
+// sum of digits in an integer
+// public class first{
+//     public static void main(String[] args){
+//         int n = 1234;
+//         int sum = 0;
+//         while (n!= 0){
+//             int digit = n % 10;
+//             sum += digit;
+//             n = n / 10;
+//         }
+//         System.out.println("The sum of digits in the integer is: " + sum);
+//     }
+// }
+
+//reversing an integer
+// public class first{
+//     public static void main(String[] args){
+//         int n = 1234;
+//         int reversed = 0;
+//         while (n !=0){
+//             int digit = n % 10 ;
+//             reversed = reversed * 10 + digit;
+//             n = n/10;
+//             
+//         }
+//               System.out.println("The reversed integer is: " + reversed);
+//     }
+// }
+
+//check palindrome number
+// public class first{
+//     public static void main(String[] args){
+//         int n = 122;
+//         int original = n;
+//         int reversed = 0;
+//         while(n != 0 ){
+//             int digit = n % 10;
+//             reversed = reversed * 10 + digit;
+//             n = n/10;
+
+//         }
+//         if (original == reversed){
+//             System.out.println(original + " is a palindrome number.");
+//         }
+//         else{
+//             System.out.println(original + " is not a palindrome number.");
+//         }
+//     }
+// }
+
+// finding largest digit in an integer
+// public class first{
+//     public static void main(String[] args){
+//         int n = 58324;
+//         int largest = 0;
+//         while ( n != 0){
+//             int digit = n % 10;
+//             if (digit > largest ){
+//                 largest = digit;
+                
+//             }
+//             n = n/10;
+           
+//         }
+//          System.out.println("The largest digit in the integer is: " + largest);
+//     }
+// }
+
+// count even and odd digits in an integer
 public class first{
     public static void main(String[] args){
-        int n = 7;
-        for(int i = 1; i <= 10; i++){
-            System.out.println(n + " x " + i + " = " + (n * i));
+        int n = 123456;
+        int evencount = 0;
+        int oddcount = 0;
+        while (n != 0){
+            int digit = n % 10;
+            if (digit % 2 ==0){
+                evencount++;
+            }else{
+                oddcount++;
+            }
+            n = n/10;
         }
+        System.out.println("The number of even digits is: " + evencount);
+        System.out.println("The number of odd digits is: " + oddcount);
     }
 }
