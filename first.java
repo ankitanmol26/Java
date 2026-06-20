@@ -340,21 +340,36 @@
 // }
 
 // count even and odd digits in an integer
-public class first{
-    public static void main(String[] args){
-        int n = 123456;
-        int evencount = 0;
-        int oddcount = 0;
-        while (n != 0){
-            int digit = n % 10;
-            if (digit % 2 ==0){
-                evencount++;
-            }else{
-                oddcount++;
-            }
-            n = n/10;
-        }
-        System.out.println("The number of even digits is: " + evencount);
-        System.out.println("The number of odd digits is: " + oddcount);
-    }
-}
+// public class first{
+//     public static void main(String[] args){
+//         int n = 123456;
+//         int evencount = 0;
+//         int oddcount = 0;
+//         while (n != 0){
+//             int digit = n % 10;
+//             if (digit % 2 ==0){
+//                 evencount++;
+//             }else{
+//                 oddcount++;
+//             }
+//             n = n/10;
+//         }
+//         System.out.println("The number of even digits is: " + evencount);
+//         System.out.println("The number of odd digits is: " + oddcount);
+//     }
+// }
+
+//factorial
+// public class first
+// {
+//     public static void main(String[] args){
+//         int n = 5;
+//         int factorial = 1;
+//         for (int i = 1; i <= n; i++){
+//             factorial *= i;
+
+
+//         }
+//         System.out.println("The factorial of " + n + " is: " + factorial);
+//     }
+// } 
