@@ -367,9 +367,28 @@
 //         int factorial = 1;
 //         for (int i = 1; i <= n; i++){
 //             factorial *= i;
-
-
 //         }
 //         System.out.println("The factorial of " + n + " is: " + factorial);
 //     }
 // } 
+
+//prime number check
+public class first {
+    public static void main(String[] args) {
+        int n = 7;
+        boolean isPrime = true;
+
+        for (int i = 2; i < n; i++) {
+            if (n % i == 0) {
+                isPrime = false;
+                break;
+            }
+        }
+
+        if (isPrime) {
+            System.out.println("Prime");
+        } else {
+            System.out.println("Not Prime");
+        }
+    }
+}
