@@ -373,22 +373,39 @@
 // } 
 
 //prime number check
-public class first {
-    public static void main(String[] args) {
-        int n = 7;
-        boolean isPrime = true;
+// public class first {
+//     public static void main(String[] args) {
+//         int n = 7;
+//         boolean isPrime = true;
 
-        for (int i = 2; i < n; i++) {
-            if (n % i == 0) {
-                isPrime = false;
-                break;
-            }
-        }
+//         for (int i = 2; i < n; i++) {
+//             if (n % i == 0) {
+//                 isPrime = false;
+//                 break;
+//             }
+//         }
 
-        if (isPrime) {
-            System.out.println("Prime");
-        } else {
-            System.out.println("Not Prime");
-        }
-    }
-}
+//         if (isPrime) {
+//             System.out.println("Prime");
+//         } else {
+//             System.out.println("Not Prime");
+//         }
+//     }
+// }
+
+//print all factors
+// public class first{
+//         public static void main(String[] args){
+//             int input = 12;
+//                 int factors = 0;
+//                 System.out.print("Factors of " + input + ": ");
+//                 for (int i = 1; i <= input; i++) {
+//                     if (input % i == 0) {
+//                         System.out.print(i + " ");
+//                         factors++;
+//                     }
+//                 }
+//                 System.out.println();
+//                 System.out.println("Total factors: " + factors);
+//         }
+// }
